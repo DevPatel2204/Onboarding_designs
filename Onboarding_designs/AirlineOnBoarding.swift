@@ -9,7 +9,29 @@ import SwiftUI
 
 struct AirlineOnBoarding: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            ZStack{
+                VStack{
+                    Text("Let's Fly")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.blue)
+                    
+                    
+                    Image("booking")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height:300)
+                        .padding(.horizontal,16)
+                    
+                        Spacer(minLength: 80)
+                    
+                }
+            }
+                .navigationTitle("Indiana Airlines")
+                .navigationBarTitleDisplayMode(.large)
+        }
+        
     }
 }
 
