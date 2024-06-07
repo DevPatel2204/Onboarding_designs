@@ -14,7 +14,8 @@
 		2F3F12392C1248B0008E4CFD /* Onboarding_designsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F12382C1248B0008E4CFD /* Onboarding_designsTests.swift */; };
 		2F3F12432C1248B0008E4CFD /* Onboarding_designsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F12422C1248B0008E4CFD /* Onboarding_designsUITests.swift */; };
 		2F3F12452C1248B0008E4CFD /* Onboarding_designsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F12442C1248B0008E4CFD /* Onboarding_designsUITestsLaunchTests.swift */; };
-		2F3F12522C1248E2008E4CFD /* AirlineOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F12512C1248E2008E4CFD /* AirlineOnBoarding.swift */; };
+		2F3F12522C1248E2008E4CFD /* AirlineOnBoarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F12512C1248E2008E4CFD /* AirlineOnBoarding1.swift */; };
+		2F3F2C4B2C1349B500EA064E /* AirlineOnBoarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F2C4A2C1349B500EA064E /* AirlineOnBoarding2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,8 @@
 		2F3F123E2C1248B0008E4CFD /* Onboarding_designsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Onboarding_designsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3F12422C1248B0008E4CFD /* Onboarding_designsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding_designsUITests.swift; sourceTree = "<group>"; };
 		2F3F12442C1248B0008E4CFD /* Onboarding_designsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding_designsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2F3F12512C1248E2008E4CFD /* AirlineOnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineOnBoarding.swift; sourceTree = "<group>"; };
+		2F3F12512C1248E2008E4CFD /* AirlineOnBoarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineOnBoarding1.swift; sourceTree = "<group>"; };
+		2F3F2C4A2C1349B500EA064E /* AirlineOnBoarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineOnBoarding2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			children = (
 				2F3F12272C1248AF008E4CFD /* Onboarding_designsApp.swift */,
 				2F3F12292C1248AF008E4CFD /* ContentView.swift */,
-				2F3F12512C1248E2008E4CFD /* AirlineOnBoarding.swift */,
+				2F3F12512C1248E2008E4CFD /* AirlineOnBoarding1.swift */,
+				2F3F2C4A2C1349B500EA064E /* AirlineOnBoarding2.swift */,
 				2F3F122B2C1248B0008E4CFD /* Assets.xcassets */,
 				2F3F122D2C1248B0008E4CFD /* Preview Content */,
 			);
@@ -260,8 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3F2C4B2C1349B500EA064E /* AirlineOnBoarding2.swift in Sources */,
 				2F3F122A2C1248AF008E4CFD /* ContentView.swift in Sources */,
-				2F3F12522C1248E2008E4CFD /* AirlineOnBoarding.swift in Sources */,
+				2F3F12522C1248E2008E4CFD /* AirlineOnBoarding1.swift in Sources */,
 				2F3F12282C1248AF008E4CFD /* Onboarding_designsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

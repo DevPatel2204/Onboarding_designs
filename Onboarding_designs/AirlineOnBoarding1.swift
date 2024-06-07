@@ -7,18 +7,39 @@
 
 import SwiftUI
 
-struct AirlineOnBoarding: View {
+struct AirlineOnBoarding1: View {
     var body: some View {
         
         ZStack{
             VStack {
+                HStack{
+                    Text("INDIANA Airlines")
+                        .font(.title)
+                        .fontDesign(.serif)
+                        .kerning(1.4)
+                    Spacer()
+                    Button(action: {
+                        
+                    }, label: {
+                        Text("Skip")
+                        //Text(Image(systemName: "arrow.right"))
+                            .fontWeight(.semibold)
+                            .frame(width: 70,height: 40)
+                            .foregroundColor(.white)
+                            .background(.black)
+                            .cornerRadius(20)
+                            .padding(.trailing)
+                    })
+                    
+                }.padding()
+                    .foregroundColor(.black)
                 Image("plane")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 400, height: 400)
                     //.padding(.horizontal,16)
-                //.cornerRadius(20)
-                    .ignoresSafeArea(.all)
+                .cornerRadius(10)
+                    //.ignoresSafeArea(.all)
                 Spacer()
                 
 
@@ -63,5 +84,5 @@ struct AirlineOnBoarding: View {
         
 }
 #Preview {
-    AirlineOnBoarding()
+    AirlineOnBoarding1()
 }
