@@ -16,6 +16,7 @@
 		2F3F12452C1248B0008E4CFD /* Onboarding_designsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F12442C1248B0008E4CFD /* Onboarding_designsUITestsLaunchTests.swift */; };
 		2F3F12522C1248E2008E4CFD /* AirlineOnBoarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F12512C1248E2008E4CFD /* AirlineOnBoarding1.swift */; };
 		2F3F2C4B2C1349B500EA064E /* AirlineOnBoarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F2C4A2C1349B500EA064E /* AirlineOnBoarding2.swift */; };
+		2FDEEFA42C13814300017062 /* AirlineOnboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDEEFA32C13814300017062 /* AirlineOnboarding3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		2F3F12442C1248B0008E4CFD /* Onboarding_designsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding_designsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2F3F12512C1248E2008E4CFD /* AirlineOnBoarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineOnBoarding1.swift; sourceTree = "<group>"; };
 		2F3F2C4A2C1349B500EA064E /* AirlineOnBoarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineOnBoarding2.swift; sourceTree = "<group>"; };
+		2FDEEFA32C13814300017062 /* AirlineOnboarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineOnboarding3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				2F3F12292C1248AF008E4CFD /* ContentView.swift */,
 				2F3F12512C1248E2008E4CFD /* AirlineOnBoarding1.swift */,
 				2F3F2C4A2C1349B500EA064E /* AirlineOnBoarding2.swift */,
+				2FDEEFA32C13814300017062 /* AirlineOnboarding3.swift */,
 				2F3F122B2C1248B0008E4CFD /* Assets.xcassets */,
 				2F3F122D2C1248B0008E4CFD /* Preview Content */,
 			);
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDEEFA42C13814300017062 /* AirlineOnboarding3.swift in Sources */,
 				2F3F2C4B2C1349B500EA064E /* AirlineOnBoarding2.swift in Sources */,
 				2F3F122A2C1248AF008E4CFD /* ContentView.swift in Sources */,
 				2F3F12522C1248E2008E4CFD /* AirlineOnBoarding1.swift in Sources */,

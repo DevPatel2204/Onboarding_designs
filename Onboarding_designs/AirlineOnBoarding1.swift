@@ -52,8 +52,8 @@ struct AirlineOnBoarding1: View {
                 
                 Spacer()
                 
-                Text("Discover Flight's and Book your Adventure Now")
-                    .multilineTextAlignment(.leading)
+                Text("Make the World look Smaller by INDIANA Airlines")
+                    .multilineTextAlignment(.center)
                     .font(.largeTitle)
                     .fontDesign(.serif)
                     .padding(5)
