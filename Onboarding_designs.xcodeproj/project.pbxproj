@@ -16,6 +16,8 @@
 		2F3F12452C1248B0008E4CFD /* Onboarding_designsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F12442C1248B0008E4CFD /* Onboarding_designsUITestsLaunchTests.swift */; };
 		2F3F12522C1248E2008E4CFD /* AirlineOnBoarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F12512C1248E2008E4CFD /* AirlineOnBoarding1.swift */; };
 		2F3F2C4B2C1349B500EA064E /* AirlineOnBoarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F2C4A2C1349B500EA064E /* AirlineOnBoarding2.swift */; };
+		2F6137372C1B292D0097A4DC /* Login2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6137362C1B292D0097A4DC /* Login2.swift */; };
+		2FA87B392C1AB2FD007BE9FF /* Login1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA87B382C1AB2FD007BE9FF /* Login1.swift */; };
 		2FDEEFA42C13814300017062 /* AirlineOnboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDEEFA32C13814300017062 /* AirlineOnboarding3.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,8 @@
 		2F3F12442C1248B0008E4CFD /* Onboarding_designsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding_designsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2F3F12512C1248E2008E4CFD /* AirlineOnBoarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineOnBoarding1.swift; sourceTree = "<group>"; };
 		2F3F2C4A2C1349B500EA064E /* AirlineOnBoarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineOnBoarding2.swift; sourceTree = "<group>"; };
+		2F6137362C1B292D0097A4DC /* Login2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login2.swift; sourceTree = "<group>"; };
+		2FA87B382C1AB2FD007BE9FF /* Login1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login1.swift; sourceTree = "<group>"; };
 		2FDEEFA32C13814300017062 /* AirlineOnboarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineOnboarding3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,11 +104,9 @@
 		2F3F12262C1248AF008E4CFD /* Onboarding_designs */ = {
 			isa = PBXGroup;
 			children = (
-				2F3F12272C1248AF008E4CFD /* Onboarding_designsApp.swift */,
+				2F6137352C1B29010097A4DC /* Login_signup */,
+				2FA87B372C1AB2B5007BE9FF /* AIrlineOnboarding */,
 				2F3F12292C1248AF008E4CFD /* ContentView.swift */,
-				2F3F12512C1248E2008E4CFD /* AirlineOnBoarding1.swift */,
-				2F3F2C4A2C1349B500EA064E /* AirlineOnBoarding2.swift */,
-				2FDEEFA32C13814300017062 /* AirlineOnboarding3.swift */,
 				2F3F122B2C1248B0008E4CFD /* Assets.xcassets */,
 				2F3F122D2C1248B0008E4CFD /* Preview Content */,
 			);
@@ -134,6 +136,26 @@
 				2F3F12442C1248B0008E4CFD /* Onboarding_designsUITestsLaunchTests.swift */,
 			);
 			path = Onboarding_designsUITests;
+			sourceTree = "<group>";
+		};
+		2F6137352C1B29010097A4DC /* Login_signup */ = {
+			isa = PBXGroup;
+			children = (
+				2FA87B382C1AB2FD007BE9FF /* Login1.swift */,
+				2F6137362C1B292D0097A4DC /* Login2.swift */,
+			);
+			path = Login_signup;
+			sourceTree = "<group>";
+		};
+		2FA87B372C1AB2B5007BE9FF /* AIrlineOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2F3F12512C1248E2008E4CFD /* AirlineOnBoarding1.swift */,
+				2F3F2C4A2C1349B500EA064E /* AirlineOnBoarding2.swift */,
+				2FDEEFA32C13814300017062 /* AirlineOnboarding3.swift */,
+				2F3F12272C1248AF008E4CFD /* Onboarding_designsApp.swift */,
+			);
+			path = AIrlineOnboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FDEEFA42C13814300017062 /* AirlineOnboarding3.swift in Sources */,
+				2F6137372C1B292D0097A4DC /* Login2.swift in Sources */,
 				2F3F2C4B2C1349B500EA064E /* AirlineOnBoarding2.swift in Sources */,
 				2F3F122A2C1248AF008E4CFD /* ContentView.swift in Sources */,
+				2FA87B392C1AB2FD007BE9FF /* Login1.swift in Sources */,
 				2F3F12522C1248E2008E4CFD /* AirlineOnBoarding1.swift in Sources */,
 				2F3F12282C1248AF008E4CFD /* Onboarding_designsApp.swift in Sources */,
 			);

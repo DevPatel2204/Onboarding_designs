@@ -24,6 +24,7 @@ struct AirlineOnBoarding2: View {
                     .bold()
                     .fontDesign(.monospaced)
                     .fontWidth(.standard)
+                    .padding(5)
                 Spacer()
                 
                 Text("Make our flights like your home cozy and comfortable ")
