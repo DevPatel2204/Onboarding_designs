@@ -79,8 +79,6 @@ struct Login2: View {
                             .background(.indigo)
                             .clipShape(RoundedRectangle(cornerRadius: 40))
                             .padding()
-                          
-                            
                     })
                     Button(action: {
                         
